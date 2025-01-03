@@ -55,6 +55,7 @@
 			this.btnGetByCustomerId.TabIndex = 35;
 			this.btnGetByCustomerId.Text = "Id\'ye Göre Getir";
 			this.btnGetByCustomerId.UseVisualStyleBackColor = false;
+			this.btnGetByCustomerId.Click += new System.EventHandler(this.btnGetByCustomerId_Click);
 			// 
 			// btnCustomerUpdate
 			// 
